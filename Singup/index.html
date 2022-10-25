@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <header>
+        <div id="row">
+            <div id="brand">Mall Store</div>
+            <div id="menu">
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="./signin.html">&#x26d4;</a></li>
+                </ul>
+                </div>
+                 <div id="account" onclick="account(this)">Click User</div>                          
+        </div>
+        <div id="jumbotron">
+            <h1>Mall Store</h1>
+        </div>
+    </header>
+
+    <main>        
+        <div id="products-sect">
+            <h3>Our Products</h3>
+            <div id="products">
+                <div class="card" id="card1" onclick="card1(this)">
+                    Product A                 
+                </div>
+                <div class="card" id="card2" onclick="card2(this)">
+                    Product B
+                </div>
+                <div class="card" id="card3" onclick="card3(this)">
+                    Product C
+                </div>
+                <div class="card" id="card4" onclick ="card4(this)">
+                    Product D
+                </div>
+                <div class="card" id="card5" onclick="card5(this)">
+                    Product E
+                </div>
+                <div class="card" id="card6" onclick="card6(this)">
+                    Product F
+                </div>                            
+            </div>          
+        </div>
+
+        <p class = "product-info" id="product-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class = "product-info2" id="product-info2"><b>Product4</b><br>Perfect Product for you!</p>
+                <div id="products-sect2">
+            <h3>Our Products</h3>
+            <div id="products">
+                <div class="card" id="card1" onclick="card1(this)">
+                    Product A                 
+                </div>
+                <div class="card" id="card2" onclick="card2(this)">
+                    Product B
+                </div>
+                <div class="card" id="card3" onclick="card3(this)">
+                    Product C
+                </div>
+                <div class="card" id="card4" onclick ="card4(this)">
+                    Product D
+                </div>
+                <div class="card" id="card5" onclick="card5(this)">
+                    Product E
+                </div>
+                <div class="card" id="card6" onclick="card6(this)">
+                    Product F
+                </div>                            
+            </div>          
+        </div>
+
+        
+    </main>
+    
+
+    <footer>
+        <div>&copy;2022 | Alimos Store</div>
+        <div>All Rights Reserved</div>
+    </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
